@@ -1,0 +1,53 @@
+<html>
+<head>
+<title> Interview - A maneira inovadora de entrar no mercado de trabalho</title> 
+      <meta name="Logo" content="Logo da empresa">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	 <link rel="stylesheet" type="text/css" href="meuestilo.css">
+</head>
+<body>
+  
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">Novidades</a>
+  <div class="dropdown">
+    <button class="dropbtn">Acesse 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Empresas</a>
+      <a href="#">Colaboradores</a>
+      <a href="#">Increva-se</a>
+	  <a href="#">Patrocinadores</a>
+    </div> 
+  </div>
+	<a href="#contato">Contato</a>
+	<a href="#help">Ajuda</a>
+</div>
+
+<div class="principal">
+	<div class="cabecalho">
+	<div class="logo-cabecalho">
+		<a href="./">O site que pode mudar sua vida profissional</a>
+	</div>
+	
+	<div class="pesquisa">
+		<input type="text" />
+		<input type="submit" value="Pesquisar" />
+	</div>
+</div>
+<div class="corpo">
+
+                     
+		</div>
+	</div>
+	<div class="rodape">
+	Equipe Interview - Uniaraxá
+</div>
+</div>
+
+<hr> </hr>
+
+</body>
+</html>
