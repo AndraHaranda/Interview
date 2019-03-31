@@ -3,13 +3,133 @@
 <title> Interview</title> 
       <meta name="Logo" content="Logo da empresa">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-
+	   
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="meuestilo.css">
 </head>
 <body>
-  
+<style>
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    <link href="jumbotron.css" rel="stylesheet">
+
+body{
+    background-color:#2ECCFA;
+}
+
+.principal{
+	width: 960px;
+	color: #444;
+	margin: 0 auto;
+	font-family:Arial;
+}
+
+.cabecalho{
+	height:100px;
+}
+.logo-cabecalho{
+	float:left;
+}
+.logo-cabecalho a{
+	font-size:30px;
+	font-style:italic;
+	text-decoration:none;
+	color:#000;
+	display:block;
+	padding:20px 0 0 0;
+}
+.pesquisa{
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+}
+
+.corpo{
+	position:relative;
+	overflow:hidden;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #0174DF;
+  font-family:Georgia;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 20px; 
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: ;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.rodape{
+	padding:20px;
+	text-align:center;
+}
+</style> 
+ 
 <nav class="navbar navbar-expand-md navbar-blue fixed-top bg-blue">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
